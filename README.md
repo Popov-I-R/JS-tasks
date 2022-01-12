@@ -27,3 +27,5 @@ let print = this.print || console.log;
 let gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
 
 Again, this were just necessary part of the script, so it can be run successfully. 
+
+I would love to see some better solutions than mine. Everybody is welcome to join the party. :)  
