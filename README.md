@@ -6,15 +6,19 @@ The task is to write code that takes in that input, processes it according to th
 
 While there isn't a single ultimate solution and a set of solutions are possible, the expected output is always the same, which means that there are multiple different ways of solving a given problem. For example, you have to find the sum of two numbers, the expected output is always the same (2+2=4), but you could use different approaches to reach the right answer. 
 
+////////////////
 Example:
 
 Description: Write a program that will print on the console "Hello, world!"
 
-Input: no input
+Input: no input (In this case)
 
-Output: Hello, world!
+Expected Output: Hello, world!
 
+-----------SOLUTION----------- 
 
+/Here will be the solution of the task
+////////////////
 
 P.S. These tasks were part of my JS preparation course at the Telerik Academy.
 They were created to work on the Telerik judge system.
