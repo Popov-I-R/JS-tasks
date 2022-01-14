@@ -1,47 +1,47 @@
-// Rectangle Area
+/* Rectangle Area
 
-// Write a program that will read a width and a height from the console and will calculate the area of the rectangle and print it on the console.
-// Hint
+Write a program that will read a width and a height from the console and will calculate the area of the rectangle and print it on the console.
+Hint
 
-// You must parse the input to number before making calculations
+You must parse the input to number before making calculations
 
-//     JavaScript: Number("42");
+    JavaScript: Number("42");
 
 
-// Input
+Input
 
-//     On the first line you will receive a number. The width of the rectangle.
-//     On the second line you will receive a number. The height of the rectangle.
+    On the first line you will receive a number. The width of the rectangle.
+    On the second line you will receive a number. The height of the rectangle.
 
-// Output
+Output
 
-//     You should print the area of the rectangle.
+    You should print the area of the rectangle.
 
-// Constraints
+Constraints
 
-//     The numbers will be integers
+    The numbers will be integers
 
-// Input
+Input
 
-// 10
+10
 
-// 10
+10
 
-// Expected Output
+Expected Output
 
-// 100
+100
 
-// Input
+Input
 
-// 4
+4
 
-// 5
+5
 
-// Output
+Output
 
-// 20
-
-// ------------------------- NOW DECISION
+20
+*/ 
+//-----------------NOW DECISION-----------------
 
 // Input.
 let input = ['4', '5'];
