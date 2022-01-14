@@ -2,7 +2,7 @@
 
 
 Examples:
-a       b       result
+a           b       result
 5 	    2 	    2 5
 -------------------------
 3 	    4 	    3 4
