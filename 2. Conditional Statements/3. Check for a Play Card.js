@@ -4,7 +4,7 @@ Classical play cards use the following signs to designate the card face: 2, 3, 4
 
 Examples:
 character           	Valid card sign?
-5 	                    yes
+5 	                yes
 1                   	no
 Q                   	yes
 q                   	no
