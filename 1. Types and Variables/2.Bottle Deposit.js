@@ -1,37 +1,30 @@
-// Bottle Deposit
+/*
 
-// When you buy something to drink you make a deposit for the bottle. Each bottle has a different deposit. Half liter bottles have $0.1 deposit and the one liter bottles have $0.25 deposit. Calculate the sum which you will make when returning the bottles. You must print two digits after the decimal point.
-// Input
+When you buy something to drink you make a deposit for the bottle. Each bottle has a different deposit. Half liter bottles have $0.1 deposit and the one liter bottles have $0.25 deposit. Calculate the sum which you will make when returning the bottles. You must print two digits after the decimal point.
+Input
 
-//     On the first line you will receive the number of 0.5L bottles.
-//     On the second line you will receive the number of 1L bottles.
+On the first line you will receive the number of 0.5L bottles.
+On the second line you will receive the number of 1L bottles.
 
-// Output
+Output
+You should print the total sum you will earn.
 
-//     You should print the total sum you will earn.
+Input
+10
+10
 
-// Input
+Output
+3.50
 
-// 10
+Input
+ 3
+ 2
 
-// 10
+Output
+ 0.80
+*/
 
-// Output
-
-// 3.50
-
-// Input
-
-// 3
-
-// 2
-
-// Output
-
-// 0.80
-
-
-// ------------------------- NOW DECISION
+// ------------------------- SOLUTION -------------------------
 
 // Input.
 let input = ['10','10'];
