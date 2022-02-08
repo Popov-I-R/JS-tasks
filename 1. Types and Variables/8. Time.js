@@ -11,15 +11,12 @@ Input
     Fourth line - s - seconds
 
 Output
-
     On the only line of output, print the total amount of seconds
 
 Constraints
-
     0 <= d, h, m, s <= 1000
 
 Input
-
 4
 3
 11
@@ -37,7 +34,6 @@ Input
 0
 
 Output
-
 7560
 
 */
