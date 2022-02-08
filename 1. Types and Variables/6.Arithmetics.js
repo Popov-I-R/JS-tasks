@@ -1,5 +1,4 @@
 /*
-Arithmetics
 
 Read two numbers from the console and calculate:
 
@@ -10,61 +9,35 @@ Read two numbers from the console and calculate:
     The result of a powered to b
 
 Input
-
     On the first line you will receive a number a
     On the second line you will receive a number b
 
 Output
-
     You should print the sum, the difference, the product the remainder and the power
 
 Input
-
 2
-
 2
 
 Output
-
 4
-
 0
-
 4
-
 0
-
 4
 
 Input
-
 3
-
 1
 
 Output
-
 4
-
 2
-
 3
-
 0
-
 3
-
-
-
-
-
-
-
 
 */
-
-
-
 
 //  ------------------SOLUTION------------------
 
