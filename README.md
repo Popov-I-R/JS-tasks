@@ -20,9 +20,7 @@ Expected Output: Hello, world!
 /Here will be the solution of the task
 ////////////////
 
-P.S. These tasks were part of my JS preparation course at the Telerik Academy.
-They were created to work on the Telerik judge system.
-For that reason instead of console.log() i used print().
+P.S. These tasks were part of my JS preparation course.
 
 P.S.2 You will see this as a part of my code:
 
