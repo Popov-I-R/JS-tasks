@@ -1,5 +1,5 @@
 # Simple JS tasks
- Simple JS tasks with their solutions
+ Simple JS tasks with their solutions in ascending order. 
 
 Every task consists of a short description, a sample input you can use to test your solution and the expected output of that sample input. 
 The task is to write code that takes in that input, processes it according to the task's description, and then produced an output. 
