@@ -20,14 +20,7 @@ Expected Output: Hello, world!
 /Here will be the solution of the task
 ////////////////
 
-P.S. These tasks were part of my JS preparation course.
-
-P.S.2 You will see this as a part of my code:
-
-// Custom implementation of read and print. Do not touch : )
-let print = this.print || console.log;
-let gets = this.gets || ((arr, index) => () => arr[index++])(input, 0);
-
-Again, this were just necessary part of the script, so it can be run successfully. 
+P.S. These tasks were part of my JS educations.
+Only the solutions are mine. 
 
 I would love to see some smarter solutions than mine. Everybody is welcome to join the party. :)  
