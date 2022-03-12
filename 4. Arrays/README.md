@@ -99,10 +99,10 @@ Examples:
 
 
 Input:                               	
-2 1 1 2 3 3 2 2 2 1 	
+	2 1 1 2 3 3 2 2 2 1 	
 
 Output:
-3
+	3
 
 
 ## Problem 11. Is Array Sorted?
@@ -114,15 +114,15 @@ Examples:
 
 
 Input:                                          	
-1 2 4 8 12 34 200 2000 	
+	1 2 4 8 12 34 200 2000 	
 
-Output:Yes
+Output:	Yes
 
 Input:                                         	
-7 8 9 10 11 12 11 13 9 	
+	7 8 9 10 11 12 11 13 9 	
 
 Output:
-No
+	No
 
 
 ## Problem 12. Find Two Biggest Numbers
@@ -134,13 +134,14 @@ Examples:
 
 
 Input:                                   	
-8 2 1 3 5 8 9 11 2 5 	
+	8 2 1 3 5 8 9 11 2 5 	
 
 Output:
 
-11 9
+	11 9
+
 Input:                                   	
-8 7 8 11 7 11 5 8 10 	
+	8 7 8 11 7 11 5 8 10 	
 
 Output:
-11 11
+	11 11
