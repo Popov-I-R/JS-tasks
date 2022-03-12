@@ -1,4 +1,4 @@
-## Problem 1. Compare arrays
+## Problem 8. Compare arrays
 
 Write a program that reads two number arrays of size N from the console and compares them element by element.
 
@@ -46,7 +46,7 @@ Not equal
 
 
 
-## Problem 2. Compare Character Arrays Lexicographically
+## Problem 9. Compare Character Arrays Lexicographically
 
 Write a program that compares two arrays with all of their elements being a single string character (like a string) lexicographically (letter by letter). Research how to convert string to array.
 
@@ -90,7 +90,7 @@ omg
 Output:
 Equal
 
-## Problem 3. Maximum Sequence
+## Problem 10. Maximum Sequence
 
 Write a program that finds the length of the maximum sequence of equal elements in an array of numbers.
 
@@ -105,7 +105,7 @@ Output:
 3
 
 
-## Problem 4. Is Array Sorted?
+## Problem 11. Is Array Sorted?
 
 Write a program that determines if an array of numbers is sorted in increasing order.
 
@@ -125,7 +125,7 @@ Output:
 No
 
 
-## Problem 5. Find Two Biggest Numbers
+## Problem 12. Find Two Biggest Numbers
 
 Write a program that finds the two biggest numbers from an array of integers
 
