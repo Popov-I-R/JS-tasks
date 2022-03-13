@@ -145,3 +145,130 @@ Input:
 
 Output:
 	11 11
+
+## Problem 13. Is Array Symmetric
+
+Write a program that finds if an array of numbers is symmetric - that is, the first number is equal to the last, the second - to the second last and so on
+
+
+Examples:
+
+
+Input                       	
+1 2 3 4 4 3 2 1 	
+
+Output
+Yes
+
+Input                       	
+7 8 9 8 7 	
+
+Output
+Yes
+
+Input                       	
+3 4 5 3 4 5 	
+
+Output
+No
+
+
+## Problem 14. Is Array in Wave Form
+
+Write a program that determines if an array of numbers is in Wave Form -
+e.g. first > second < third > fourth < fifth > ...
+
+
+Examples:
+
+
+Input               	
+2 1 2 1 2 1 2 	
+
+Output
+Yes
+
+Input               	
+7 3 5 2 8 4 	
+
+Output
+Yes
+
+Input               	
+2 1 3 4 2 3 	
+
+Output
+No
+
+
+## Problem 15. Negative-Positive Sort
+
+Write a program that moves all negative numbers to the beginning and all positive to the end, without changing the order of positive negative
+
+
+Examples:
+
+
+Input                                       	
+7 2 -2 1 -5 4 5 -3 1 	
+
+Output
+-2 -5 -3 7 2 1 4 5 1
+
+
+
+## Problem 16. Print Maximum Increasing Subsequence
+
+Write a program that prints the maximum length increasing subsequence to the console. If two or more are of the same length, print the last one
+
+
+Examples:
+
+
+Input                                           	
+6 7 3 8 1 9 4 5 6 2 1 3 	
+
+Output
+4 5 6
+
+Input                                           	
+1 2 3 4 3 1 9 4 5 6 11 	
+
+Output
+4 5 6 11
+
+## Problem 17. Repeating Numbers
+
+Write a program that finds the repeating number. All other numbers occur only once.
+
+
+Examples:
+
+
+Input                             	
+1 2 3 4 5 6 5 8 9 	
+
+Output
+5
+
+
+
+## Problem 18. Pairs
+
+Write a program that find all pairs of numbers whose sum is equal to a given number. On the first line you will receive the target sum, on the second line - the array.
+
+
+Examples:
+
+
+Input                             	
+6
+1 2 3 4 3 6 5 8 3 9 	
+
+
+Output
+1, 5
+2, 4
+3, 3
+3, 3
+3, 3
