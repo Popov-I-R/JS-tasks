@@ -286,16 +286,21 @@ Write a program that find all pairs of numbers whose sum is equal to a given num
 Examples:
 
 
-Input  
+## Input  
                            	
-	6
+	## 6
 	
 	1 2 3 4 3 6 5 8 3 9 	
 
 
-Output
+##	Output
+
 1, 5
+
 2, 4
+
 3, 3
+
 3, 3
+
 3, 3
