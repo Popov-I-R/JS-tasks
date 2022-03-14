@@ -11,11 +11,13 @@ Example:
 
 Description: Write a program that will print on the console "Hello, world!"
 
-Input: no input (In this case)
+##  Input: 
+    no input (In this case)
 
-Expected Output: Hello, world!
+## Expected Output: 
+    Hello, world!
 
------------SOLUTION----------- 
+## -----------SOLUTION----------- 
 
 /Here will be the solution of the task
 ////////////////
