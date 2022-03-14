@@ -17,9 +17,9 @@ Description: Write a program that will print on the console "Hello, world!"
 ## Expected Output: 
     Hello, world!
 
-## -----------SOLUTION----------- 
+## SOLUTION
 
-/Here will be the solution of the task
+ Here will be the solution of the task
 ////////////////
 
 P.S. These tasks were part of my JS educations.
