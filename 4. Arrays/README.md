@@ -1,16 +1,16 @@
-## Problem 8. Compare arrays
+# Problem 8. Compare arrays
 
 Write a program that reads two number arrays of size N from the console and compares them element by element.
 
 
-Input:
+## Input:
 
     On the first line you will receive the number N
     On the next N lines the numbers of the first array will be given
     On the next N lines the numbers of the second array will be given
 
 
-Output:
+## Output:
 
 	Print Equal if the two arrays are the same and Not equal if they are not
 
@@ -18,19 +18,19 @@ Output:
 Examples:
 
 
-Input  
+## Input  
 
 	3 1 2 3 1 2 3 	
 
-Output
+## Output
 
 	Equal
 
-Input  
+## Input  
          	
 	3 2 4 6 6 4 2 	
 
-Output
+## Output
 
 	Not equal
 
@@ -43,13 +43,13 @@ Output
 Write a program that compares two arrays with all of their elements being a single string character (like a string) lexicographically (letter by letter). Research how to convert string to array.
 
 
-Input:
+## Input:
 
     On the first line you will receive the first array as string
     On the second line you will receive the second array as string
 
 
-Output:
+## Output:
 
     Print First if the first array is lexicographically smaller
     Print Second if the second array is lexicographically smaller
@@ -59,29 +59,29 @@ Output:
 Examples:
 
 
-Input:          	
+## Input:          	
 
 	telerik teleric 	
 
-Output: 
+## Output: 
 
 	Second
 
 
-Input:           	
+## Input:           	
 	
 	own owned 	
 
-Output:
+## Output:
 
 	First
 
 
-Input:           	
+## Input:           	
 	
 	omg omg 	
 
-Output: 
+## Output: 
 	
 	Equal
 
@@ -93,11 +93,11 @@ Write a program that finds the length of the maximum sequence of equal elements 
 Examples:
 
 
-Input: 
+## Input: 
                               	
 	2 1 1 2 3 3 2 2 2 1 	
 
-Output:
+## Output:
 
 	3
 
@@ -110,19 +110,19 @@ Write a program that determines if an array of numbers is sorted in increasing o
 Examples:
 
 
-Input:  
+## Input:  
                                         	
 	1 2 4 8 12 34 200 2000 	
 
-Output:
+## Output:
 
 	Yes
 
-Input: 
+## Input: 
                                         	
 	7 8 9 10 11 12 11 13 9 	
 
-Output:
+## Output:
 
 	No
 
@@ -135,19 +135,19 @@ Write a program that finds the two biggest numbers from an array of integers
 Examples:
 
 
-Input:  
+## Input:  
                                  	
 	8 2 1 3 5 8 9 11 2 5 	
 
-Output:
+## Output:
 
 	11 9
 
-Input:   
+## Input:   
                                 	
 	8 7 8 11 7 11 5 8 10 	
 
-Output:
+## Output:
 
 	11 11
 
@@ -159,27 +159,27 @@ Write a program that finds if an array of numbers is symmetric - that is, the fi
 Examples:
 
 
-Input   
+## Input   
                     	
 	1 2 3 4 4 3 2 1 	
 
-Output
+## Output
 
 	Yes
 
-Input 
+## Input 
                       	
 	7 8 9 8 7 	
 
-Output
+## Output
 
 	Yes
 
-Input 
+## Input 
                       	
 	3 4 5 3 4 5 	
 
-Output
+## Output
 
 	No
 
@@ -218,7 +218,7 @@ Examples:
 	No
 
 
-## Problem 15. Negative-Positive Sort
+# Problem 15. Negative-Positive Sort
 
 Write a program that moves all negative numbers to the beginning and all positive to the end, without changing the order of positive negative
 
@@ -226,11 +226,11 @@ Write a program that moves all negative numbers to the beginning and all positiv
 Examples:
 
 
-Input  
+## Input  
                                      	
 	7 2 -2 1 -5 4 5 -3 1 	
 
-Output
+## Output
 
 	-2 -5 -3 7 2 1 4 5 1
 
@@ -244,17 +244,21 @@ Write a program that prints the maximum length increasing subsequence to the con
 Examples:
 
 
-Input                                           	
-6 7 3 8 1 9 4 5 6 2 1 3 	
+## Input   
+                                        	
+	6 7 3 8 1 9 4 5 6 2 1 3 	
 
-Output
-4 5 6
+## Output
 
-Input                                           	
-1 2 3 4 3 1 9 4 5 6 11 	
+	4 5 6
 
-Output
-4 5 6 11
+## Input    
+                                       	
+	1 2 3 4 3 1 9 4 5 6 11 	
+
+## Output
+
+	4 5 6 11
 
 ## Problem 17. Repeating Numbers
 
@@ -264,11 +268,13 @@ Write a program that finds the repeating number. All other numbers occur only on
 Examples:
 
 
-Input                             	
-1 2 3 4 5 6 5 8 9 	
+## Input 
+                            	
+	1 2 3 4 5 6 5 8 9 	
 
-Output
-5
+## Output
+
+	5
 
 
 
@@ -280,9 +286,11 @@ Write a program that find all pairs of numbers whose sum is equal to a given num
 Examples:
 
 
-Input                             	
-6
-1 2 3 4 3 6 5 8 3 9 	
+Input  
+                           	
+	6
+	
+	1 2 3 4 3 6 5 8 3 9 	
 
 
 Output
