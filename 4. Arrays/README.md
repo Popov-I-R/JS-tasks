@@ -12,13 +12,14 @@ Input:
 
 Output:
 
-Print Equal if the two arrays are the same and Not equal if they are not
+	Print Equal if the two arrays are the same and Not equal if they are not
 
 
 Examples:
 
 
-Input           	
+Input  
+				
 3
 1
 2
@@ -28,7 +29,8 @@ Input
 3 	
 
 Output
-Equal
+
+	Equal
 
 Input           	
 3
@@ -40,7 +42,7 @@ Input
 2 	
 
 Output
-Not equal
+	Not equal
 
 
 
