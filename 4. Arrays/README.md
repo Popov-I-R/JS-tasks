@@ -184,7 +184,7 @@ Output
 	No
 
 
-## Problem 14. Is Array in Wave Form
+# Problem 14. Is Array in Wave Form
 
 Write a program that determines if an array of numbers is in Wave Form -
 e.g. first > second < third > fourth < fifth > ...
@@ -193,27 +193,27 @@ e.g. first > second < third > fourth < fifth > ...
 Examples:
 
 
-# Input  
+## Input  
              	
 	2 1 2 1 2 1 2 	
 
-#Output
+## Output
 
 	Yes
 
-#Input   
+## Input   
             	
 	7 3 5 2 8 4 	
 
-#Output
+## Output
 
 	Yes
 
-#Input               	
+## Input               	
 
 	2 1 3 4 2 3 	
 
-# Output
+## Output
 
 	No
 
@@ -226,11 +226,13 @@ Write a program that moves all negative numbers to the beginning and all positiv
 Examples:
 
 
-Input                                       	
-7 2 -2 1 -5 4 5 -3 1 	
+Input  
+                                     	
+	7 2 -2 1 -5 4 5 -3 1 	
 
 Output
--2 -5 -3 7 2 1 4 5 1
+
+	-2 -5 -3 7 2 1 4 5 1
 
 
 
