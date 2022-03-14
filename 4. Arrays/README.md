@@ -61,8 +61,7 @@ Examples:
 
 Input:          	
 
-	telerik
-teleric 	
+	telerik teleric 	
 
 Output: 
 
@@ -70,8 +69,8 @@ Output:
 
 
 Input:           	
-own
-owned 	
+	
+	own owned 	
 
 Output:
 
@@ -79,8 +78,8 @@ Output:
 
 
 Input:           	
-omg
-omg 	
+	
+	omg omg 	
 
 Output: 
 	
@@ -94,10 +93,12 @@ Write a program that finds the length of the maximum sequence of equal elements 
 Examples:
 
 
-Input:                               	
+Input: 
+                              	
 	2 1 1 2 3 3 2 2 2 1 	
 
 Output:
+
 	3
 
 
@@ -109,15 +110,20 @@ Write a program that determines if an array of numbers is sorted in increasing o
 Examples:
 
 
-Input:                                          	
+Input:  
+                                        	
 	1 2 4 8 12 34 200 2000 	
 
-Output:	Yes
+Output:
 
-Input:                                         	
+	Yes
+
+Input: 
+                                        	
 	7 8 9 10 11 12 11 13 9 	
 
 Output:
+
 	No
 
 
@@ -129,17 +135,20 @@ Write a program that finds the two biggest numbers from an array of integers
 Examples:
 
 
-Input:                                   	
+Input:  
+                                 	
 	8 2 1 3 5 8 9 11 2 5 	
 
 Output:
 
 	11 9
 
-Input:                                   	
+Input:   
+                                	
 	8 7 8 11 7 11 5 8 10 	
 
 Output:
+
 	11 11
 
 ## Problem 13. Is Array Symmetric
@@ -150,23 +159,29 @@ Write a program that finds if an array of numbers is symmetric - that is, the fi
 Examples:
 
 
-Input                       	
-1 2 3 4 4 3 2 1 	
+Input   
+                    	
+	1 2 3 4 4 3 2 1 	
 
 Output
-Yes
 
-Input                       	
-7 8 9 8 7 	
+	Yes
 
-Output
-Yes
-
-Input                       	
-3 4 5 3 4 5 	
+Input 
+                      	
+	7 8 9 8 7 	
 
 Output
-No
+
+	Yes
+
+Input 
+                      	
+	3 4 5 3 4 5 	
+
+Output
+
+	No
 
 
 ## Problem 14. Is Array in Wave Form
