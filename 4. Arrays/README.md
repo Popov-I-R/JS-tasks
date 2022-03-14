@@ -26,16 +26,12 @@ Output
 
 	Equal
 
-Input           	
-3
-2
-4
-6
-6
-4
-2 	
+Input  
+         	
+	3 2 4 6 6 4 2 	
 
 Output
+
 	Not equal
 
 
@@ -64,11 +60,13 @@ Examples:
 
 
 Input:          	
-telerik
+
+	telerik
 teleric 	
 
 Output: 
-Second
+
+	Second
 
 
 Input:           	
@@ -76,15 +74,17 @@ own
 owned 	
 
 Output:
-First
+
+	First
 
 
 Input:           	
 omg
 omg 	
 
-Output:
-Equal
+Output: 
+	
+	Equal
 
 ## Problem 10. Maximum Sequence
 
