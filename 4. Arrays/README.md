@@ -193,23 +193,29 @@ e.g. first > second < third > fourth < fifth > ...
 Examples:
 
 
-Input               	
-2 1 2 1 2 1 2 	
+# Input  
+             	
+	2 1 2 1 2 1 2 	
 
-Output
-Yes
+#Output
 
-Input               	
-7 3 5 2 8 4 	
+	Yes
 
-Output
-Yes
+#Input   
+            	
+	7 3 5 2 8 4 	
 
-Input               	
-2 1 3 4 2 3 	
+#Output
 
-Output
-No
+	Yes
+
+#Input               	
+
+	2 1 3 4 2 3 	
+
+# Output
+
+	No
 
 
 ## Problem 15. Negative-Positive Sort
