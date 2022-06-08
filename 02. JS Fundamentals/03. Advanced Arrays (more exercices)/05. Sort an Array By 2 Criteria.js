@@ -11,7 +11,7 @@ function solve(input) {
 
         //Alphabetical sort
         if (result === 0) {
-            return a.localeCompare(b) // тази функция сравнява стрингове
+            return a.localeCompare(b) 
         }
 
         return result
