@@ -5,8 +5,8 @@ function solve(input) {
         
 
     function sortProducts(a, b) {
-        let aLength = a.aLength
-        let bLength = b.aLength
+        let aLength = a.length
+        let bLength = b.length
         let result = aLength - bLength
 
         //Alphabetical sort
