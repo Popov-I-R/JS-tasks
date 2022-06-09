@@ -5,13 +5,13 @@ function solve(input) {
         
 
     function sortProducts(a, b) {
-        let aLength = a.aLength
-        let bLength = b.aLength
+        let aLength = a.length
+        let bLength = b.length
         let result = aLength - bLength
 
         //Alphabetical sort
         if (result === 0) {
-            return a.localeCompare(b) // тази функция сравнява стрингове
+            return a.localeCompare(b) 
         }
 
         return result
