@@ -1,39 +1,30 @@
 function solve(input) {
-    let guests = new Map()
+    let invitedGuests = []
 
-    let guestsInput = input.slice(0, index)
+    let index = input.indexOf('PARTY')
+    let invitations = input.slice(0, index)
 
-    for (let guestStatus of input) {
-        let guestType = ''
-
-        if(isNaN(Number(guestStatus[0]))) {
-            guestType = 'Regular'
-        } else {
-            guestType = 'VIP'
-        }
-
-        
-            guests.set(guestStatus, guestType)
-        
-
-     
-        
+    for(let guest of invitations) {
+        invitedGuests.push(guest)
     }
 
     for (let i = index + 1; i < input.length; i++) {
         let guest = input[i]
-        if (guests.has(guest)) {
-            guests.delete(guest)
-        }
-     }
-     let sortedMap = [...guests]
-     .sort((a,b ) => {
-         return b[1].localeCompare(a[1])
-     })
-     console.log(sortedMap.length)
-     for (let [guestStatus, guestType] of sortedMap) {
-         console.log(guestStatus)
-     }
+        let deletionIndex = invitedGuests.indexOf(guest)
+        invitedGuests.splice(deletionIndex, 1)
+    }
+
+    console.log(invitedGuests.length)
+    let vip = invitedGuests.filter(x => !isNaN(Number(x.charAt(0))))
+    let regular = invitedGuests.filter(x => !isNaN(Number(x.charAt(0))))
+    if (vip.length > 0) {
+        console.log(vip.join('\n'))
+    }
+
+    if (regular.length > 0) {
+        console.log(regular.join('\n'))
+    }
+
 }
  
  
