@@ -49,9 +49,7 @@ Write a function that stores information about a person’s name and phone numbe
 
 ## Problem 2. Storage
 
-You will be given an array of integer numbers on the first line of the input.
-Remove all repeating elements from the array. 
-Print the result elements separated by a single space.
+Write a function that takes a certain number of items and their quantity. If the same item appears more than once, add the new amount to the existing one. In the end, print all the items and their amount without sorting them. The input comes as an array of strings. Try using a Map().
 
 
 
@@ -60,32 +58,35 @@ Examples:
 
 ## Input:          	
 
-	[1, 2, 3, 4]
+	['tomatoes 10',
+	'coffee 5',
+	'olives 100',
+	'coffee 40']
+
 	
 
 ## Output: 
 
-	1 2 3 4
+	tomatoes -> 10
+	coffee -> 45
+	olives -> 100
+
 
 
 
 ## Input:           	
 	
-	[7, 8, 9, 7, 2, 3, 4, 1, 2]
+	['apple 50',
+	'apple 61',
+	'coffee 115',
+	'coffee 40']
 
-
-## Output:
-
-	7 8 9 2 3 4 1
-	
-## Input:           	
-	
-	[20, 8, 12, 13, 4, 4, 8, 5]
 
 
 ## Output:
 
-	20 8 12 13 4 5
+	apple -> 111
+	coffee -> 155
 
 
 
