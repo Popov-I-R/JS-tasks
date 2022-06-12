@@ -46,11 +46,11 @@ Print for each word how many times it occurs. The words should be sorted by coun
 
 
 
-## Problem 2. Distinct Array
+## Problem 2. Odd Occurrences
 
-You will be given an array of integer numbers on the first line of the input.
-Remove all repeating elements from the array. 
-Print the result elements separated by a single space.
+Write a function that extracts the elements of a sentence, if it appears an odd number of times (case-insensitive).
+The input comes as a single string. The words will be separated by a single space.
+
 
 
 
@@ -59,32 +59,25 @@ Examples:
 
 ## Input:          	
 
-	[1, 2, 3, 4]
+	'Java C# Php PHP Java PhP 3 C# 3 1 5 C#'
 	
 
 ## Output: 
 
-	1 2 3 4
+	c# php 1 5
 
 
 
 ## Input:           	
 	
-	[7, 8, 9, 7, 2, 3, 4, 1, 2]
+	'Cake IS SWEET is Soft CAKE sweet Food'
 
 
 ## Output:
 
-	7 8 9 2 3 4 1
+	soft food
 	
-## Input:           	
-	
-	[20, 8, 12, 13, 4, 4, 8, 5]
 
-
-## Output:
-
-	20 8 12 13 4 5
 
 
 
