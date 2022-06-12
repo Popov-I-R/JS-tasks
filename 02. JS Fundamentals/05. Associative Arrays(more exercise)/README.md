@@ -121,10 +121,14 @@ Examples:
 
 
 
-## Problem 4. Sorting
+## Problem 4. Party Time
 
-Write a function that sorts an array of numbers so that the first element is the biggest one, the second is the smallest one, the third is the second biggest one, and the fourth is the second smallest one, and so on. 
-Print the elements on one row, separated by a single space.
+There is a party at SoftUni. Many guests are invited and they are two types: VIP and regular. When guests come to the party check if he/she contains in any of the two reservation lists. 
+The input will come as an array of strings. You will be given the list with the guests before you receive a command "PARTY".
+All VIP numbers start with a digit.
+When you receive the command "PARTY", the guests start coming.
+Print the count of guests then all guests, who didn't come to the party (VIP must be printed first). 
+
 
 
 
@@ -133,20 +137,66 @@ Examples:
 
 ## Input:  
                                         	
-	[1, 21, 3, 52, 69, 63, 31, 2, 18, 94]
+	['7IK9Yo0h',
+	'9NoBUajQ',
+	'Ce8vwPmE',
+	'SVQXQCbc',
+	'tSzE5t0p',
+	'PARTY',
+	'9NoBUajQ',
+	'Ce8vwPmE',
+	'SVQXQCbc'
+	]
+
 
 ## Output:
 
-	[1, 21, 3, 52, 69, 63, 31, 2, 18, 94]
+	2
+	7IK9Yo0h
+	tSzE5t0p
+
 
 
 ## Input: 
                                         	
-	[34, 2, 32, 45, 690, 6, 32, 7, 19, 47]
+	['m8rfQBvl',
+	'fc1oZCE0',
+	'UgffRkOn',
+	'7ugX7bm0',
+	'9CQBGUeJ',
+	'2FQZT3uC',
+	'dziNz78I',
+	'mdSGyQCJ',
+	'LjcVpmDL',
+	'fPXNHpm1',
+	'HTTbwRmM',
+	'B5yTkMQi',
+	'8N0FThqG',
+	'xys2FYzn',
+	'MDzcM9ZK',
+	'PARTY',
+	'2FQZT3uC',
+	'dziNz78I',
+	'mdSGyQCJ',
+	'LjcVpmDL',
+	'fPXNHpm1',
+	'HTTbwRmM',
+	'B5yTkMQi',
+	'8N0FThqG',
+	'm8rfQBvl',
+	'fc1oZCE0',
+	'UgffRkOn',
+	'7ugX7bm0',
+	'9CQBGUeJ'
+	]
+
 
 ## Output:
 
-	690 2 47 6 45 7 34 19 32 32	
+	2
+	xys2FYzn
+	MDzcM9ZK
+
 
 
 ## Problem 5. Sort an Array by 2 Criteria
