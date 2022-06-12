@@ -1,49 +1,44 @@
-## Problem 1. Train
+## Problem 1. Words Tracker
 
-You will be given an array of strings.
-The first element will be a string containing wagons (numbers). Each number inside the string represents the number of passengers that are currently in a wagon. 
-The second element in the array will be the max capacity of each wagon (single number).
-The rest of the elements will be commands in the following format:
-•	Add {passengers} – add a wagon to the end with the given number of passengers.
-•	{passengers} - find an existing wagon to fit all the passengers (starting from the first wagon)
-At the end, print the final state of the train (all the wagons separated by a space).
+Write a function that receives an array of words and finds occurrences of given words in that sentence. 
+The input will come as an array of strings. The first string will contain the words you will be looking for separated by a space. All strings after that will be the words in which you will check for a match.
+Print for each word how many times it occurs. The words should be sorted by count in descending.
+
 
 
 ## Input:
 
-    ['32 54 21 12 4 0 23',
-	'75',
-	'Add 10',
-	'Add 0',
-	'30',
-	'10',
-	'75']
+    [
+	'this sentence', 
+	'In', 'this', 'sentence', 'you', 'have', 'to', 'count', 'the', 'occurrences', 'of', 'the', 'words', 'this', 'and', 'sentence', 'because', 'this', 'is', 'your', 'task'
+	]
+
 
 
 
 
 ## Output:
 
-	72 54 21 12 4 75 23 10 0
+	this - 3
+	sentence - 2
+
 
 
 
 ## Input  
 
-	['0 0 0 10 2 4',
-	'10',
-	'Add 10',
-	'10',
-	'10',
-	'10',
-	'8',
-	'6']
+	[
+	'is the', 
+	'first', 'sentence', 'Here', 'is', 'another', 'the', 'And', 'finally', 'the', 'the', 'sentence']
+
 
 
 
 ## Output
 
-	10 10 10 10 10 10 10
+	the – 3
+	is - 1
+
 
 
 
