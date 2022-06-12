@@ -81,15 +81,15 @@ Examples:
 
 
 
-## Problem 3.House Party
+## Problem 3. Piccolo
 
-Write a function that keeps track of guests that are going to a house party.
-You will be given an array of strings. Each string will be one of the following:
--	"{name} is going!"
--	"{name} is not going!"
-If you receive the first type of input, you have to add the person if he/she is not in the list (If he/she is in the list print: "{name} is already in the list!").
-If you receive the second type of input, you have to remove the person if he/she is in the list (if not print: "{name} is not in the list!"). 
-At the end print all the guests each on a separate line.
+Write a function that:
+•	Records a car number for every car that enters the parking lot
+•	Removes a car number when the car goes out
+•	Input will be an array of strings in format [direction, carNumber]
+Print the output with all car numbers which are in the parking lot sorted in ascending by number.
+If the parking lot is empty, print: "Parking Lot is Empty".
+
 
 
 
@@ -98,17 +98,27 @@ Examples:
 
 ## Input: 
                               	
-	['Allie is going!',
-	'George is going!',
-	'John is not going!',
-	'George is not going!']
+	['IN, CA2844AA',
+	'IN, CA1234TA',
+	'OUT, CA2844AA',
+	'IN, CA9999TT',
+	'IN, CA2866HI',
+	'OUT, CA1234TA',
+	'IN, CA2844AA',
+	'OUT, CA2866HI',
+	'IN, CA9876HH',
+	'IN, CA2822UU']
+
 
 
 
 ## Output:
 
-	John is not in the list!
-	Allie
+	CA2822UU
+	CA2844AA
+	CA9876HH
+	CA9999TT
+
 
 
 ## Problem 4. Sorting
