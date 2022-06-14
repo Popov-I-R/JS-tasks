@@ -270,17 +270,22 @@ Examples:
 
 	
 	
-Hints
-·	An array can be sorted by passing a comparing function to the Array.sort() function
-·	Creating a comparing function by 2 criteria can be achieved by first comparing by the main criteria, if the 2 items are different (the result of the compare is not 0) - return the result as the result of the comparing function. If the two items are the same by the main criteria (the result of the comparison is 0), we need to compare by the second criteria and the result of that comparison is the result of the comparing function
-	
 
-## Problem 6. Bomb Numbers
+## Problem 6. Company Users
 
-Write a function that receives two parameters: sequence of numbers and special bomb number with a certain power. 
-Your task is to detonate every occurrence of the special bomb number and according to its power his neighbors from left and right. Detonations are performed from left to right and all detonated numbers disappear. 
-The input contains two arrays of numbers. The first contains the initial sequence and the second contains the special bomb number and its power.
-The output is the sum of the remaining elements in the sequence.
+Write a function, which keeps the information about companies and their employees. 
+You will receive an array of strings containing the company name and employee's id. Add each employee to the given company. Keep in mind that a company cannot have two employees with the same id.
+When you finish reading data, order the companies by their name in ascending order. 
+Print the company name and each employee's id in the following format:
+{companyName}
+-- {id1}
+-- {id2}
+-- {idN}
+
+Input / Constraints
+•	The input come as array of strings, each in the format: "{companyName} -> {employeeId}".
+•	The input always will be valid.
+
 
 
 
@@ -289,24 +294,52 @@ Examples:
 
 ## Input   
                     	
-	[1, 2, 2, 4, 2, 2, 2, 9],
-	[4, 2]
+	[
+	'SoftUni -> AA12345',
+	'SoftUni -> BB12345',
+	'Microsoft -> CC12345',
+	'HP -> BB12345'
+	]
+
 
 
 ## Output
 
-	12
+	HP
+	-- BB12345
+	Microsoft
+	-- CC12345
+	SoftUni
+	-- AA12345
+	-- BB12345
+
+
 
 
 ## Input 
                       	
-	[1, 4, 4, 2, 8, 9, 1],
-	[9, 3]
+	[
+	'SoftUni -> AA12345',
+	'SoftUni -> CC12344',
+	'Lenovo -> XX23456',
+	'SoftUni -> AA12345',
+	'Movement -> DD11111'
+	]
+
+
+
 
 
 ## Output
 
-	5
+	Lenovo
+	-- XX23456
+	Movement
+	-- DD11111
+	SoftUni
+	-- AA12345
+	-- CC12344
+
 
 
 
