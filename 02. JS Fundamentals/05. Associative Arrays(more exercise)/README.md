@@ -343,49 +343,60 @@ Examples:
 
 
 
-# Problem 7. Search for a Number
+# Problem 7. A Miner Task
 
-You will receive two arrays of integers. The second array is containing exactly three numbers. 
-The first number represents the number of elements you have to take from the first array (starting from the first one).
-The second number represents the number of elements you have to delete from the numbers you took (starting from the first one). 
-The third number is the number we search in our collection after the manipulations. 
-As output print how many times that number occurs in our array in the following format: 
-"Number {number} occurs {count} times."
+You are given an array of strings. Every odd string is representing a resource (e.g. Gold, Silver, Copper, and so on), and every even – quantity. Your task is to collect the resources and print them each on a new line. 
+Print the resources and their quantities in the format:
+{resource} –> {quantity}
+The quantities inputs will be in the range [1 … 2 000 000 000].
+
 
 Examples:
 
 
 ## Input  
              	
-	[5, 2, 3, 4, 1, 6],
-	[5, 2, 3]
+	[
+	'Gold',
+	'155',
+	'Silver',
+	'10',
+	'Copper',
+	'17'
+	]
+
 
 
 
 ## Output
 
-	Number 3 occurs 1 times.
+	Gold -> 155
+	Silver -> 10
+	Copper -> 17
+
 
 
 ## Input   
             	
-	[7, 1, 5, 8, 2, 7],
-	[3, 1, 5]
+	[
+	'gold',
+	'155',
+	'silver',
+	'10',
+	'copper',
+	'17',
+	'gold',
+	'15'
+	]
+
 
 
 
 ## Output
 
-	Number 5 occurs 1 times.
+	gold -> 170
+	silver -> 10
+	copper -> 17
 
 
 
-
-
-## Hints
-
-•	The sort function rearranges the array in ascending order
-        
-•	Finally, we have to print our sorted array. To do that we loop through the array
-        
-•	We use i + 1, because we want to start counting from 
